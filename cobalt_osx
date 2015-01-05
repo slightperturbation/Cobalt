@@ -1,0 +1,12 @@
+#!/bin/sh
+
+echo "**** Removing current build and bin directories"
+rm -rf build/ bin/; mkdir build; cd build
+echo "**** Running cmake in build directory"
+cmake -DCMAKE_INSTALL_PREFIX=../bin \
+      -DCMAKE_BUILD_TYPE=Debug \
+      -G Xcode
+echo "**** Launching Xcode"
+open Cobalt.xcodeproj
+
+

@@ -2,7 +2,7 @@
 # Options meant to be user-configurable
 #
 
-option( COBALT_BUILD_EXAMPLES ON )
-option( COBALT_NO_THREADS OFF )  # for enscripten
+set( COBALT_BUILD_EXAMPLES  ON  CACHE BOOL "If ON, then examples will be built." )
+set( COBALT_NO_THREADS      OFF CACHE BOOL "If ON, then no threading will be used (e.g., for emscripten)" )
 
-set( SHADER_DIR "${CMAKE_CURRENT_SOURCE_DIR}/data/shaders" )
+

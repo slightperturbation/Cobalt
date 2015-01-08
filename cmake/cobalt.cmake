@@ -2,14 +2,12 @@
 # Cobalt-wide settings and configuration
 # 
 
-cmake_minimum_required( VERSION 2.8 FATAL_ERROR )
 enable_language(C)
 enable_language(CXX)
 
 set( CMAKE_MODULE_PATH "./cmake" "${CMAKE_SOURCE_DIR}/cmake" ${CMAKE_MODULE_PATH} )
 
 macro( cobalt_use_modern_cpp )
-
     include(CheckCXXCompilerFlag)
     CHECK_CXX_COMPILER_FLAG("-std=c++1y" COMPILER_SUPPORTS_CXX1Y)
     if(COMPILER_SUPPORTS_CXX1Y)
@@ -31,23 +29,27 @@ macro( cobalt_use_modern_cpp )
         set(CMAKE_XCODE_ATTRIBUTE_CLANG_CXX_LANGUAGE_STANDARD "c++1y" )
         set(CMAKE_XCODE_ATTRIBUTE_CLANG_CXX_LIBRARY "libc++")
     endif( APPLE )
-
 endmacro()
 
-macro( cobalt_compiler_settings )
+macro( cobalt_set_extensions )
+    if( COBALT_EMSCRIPTEN )
+        message( "\n\nUsing emscripten build chain!\n\n" )
+        set( CMAKE_EXECUTABLE_SUFFIX ".html" ) # .js ?
+    else()
+        message( "\n\nNOT using emscripten build chain!\n\n" )
+        set( CMAKE_EXECUTABLE_SUFFIX ".exe" )
+    endif()
+endmacro()
 
-    cobalt_use_modern_cpp()
-
+macro( cobalt_set_threading_support )
     if( COBALT_NO_THREADS )
         add_definitions( -DCOBALT_NO_THREADS=1 )
     else()
         add_definitions( -DCOBALT_NO_THREADS=0 )
     endif()
-
 endmacro()
 
 macro( cobalt_add_shaders_to_project SHADER_DIR )
-
     file(GLOB VERT_SHADER_FILES RELATIVE 
       ${SHADER_DIR} "${SHADER_DIR}/*.vert" )
     file(GLOB FRAG_SHADER_FILES RELATIVE 
@@ -61,17 +63,24 @@ macro( cobalt_add_shaders_to_project SHADER_DIR )
       LIST(APPEND FRAG_SHADERS "${SHADER_DIR}/${shaderFile}" )
       SET_SOURCE_FILES_PROPERTIES( ${SHADER_DIR}/${shaderFile} PROPERTIES HEADER_FILE_ONLY TRUE )
     endforeach()
-
 endmacro()
 
 
 macro( cobalt_set_bin_output_directory )
-
   set( CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib )
   set( CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib )
   set( CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin )
-
 endmacro()
 
 
+
+macro( cobalt_compiler_settings )
+    cobalt_use_modern_cpp()
+    cobalt_set_extensions()
+    cobalt_set_threading_support()
+
+    if( COBALT_EMSCRIPTEN )
+        add_definitions( -DCOBALT_EMSCRIPTEN )
+    endif()
+endmacro()
 

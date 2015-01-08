@@ -1,7 +1,9 @@
-#include <iostream>
+#include <Core/Log.hpp>
+
+using namespace cobalt::core;
 
 int main( int argc, char* argv[] )
 {
-    std::cout << "Helloworld.\n";
+    Log::debug( "Hello %s!", "World" );
     return 0;
 }

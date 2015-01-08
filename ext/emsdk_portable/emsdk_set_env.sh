@@ -1,0 +1,2 @@
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/vector/bin:/Users/vector/Projects/Cobalt/ext/emsdk_portable:/Users/vector/Projects/Cobalt/ext/emsdk_portable/clang/e1.27.0_64bit:/Users/vector/Projects/Cobalt/ext/emsdk_portable/node/0.10.18_64bit/bin:/Users/vector/Projects/Cobalt/ext/emsdk_portable/emscripten/1.27.0"
+export EMSCRIPTEN="/Users/vector/Projects/Cobalt/ext/emsdk_portable/emscripten/1.27.0"

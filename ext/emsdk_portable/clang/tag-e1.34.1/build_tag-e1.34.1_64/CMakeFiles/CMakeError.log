@@ -1,0 +1,272 @@
+Determining if the include file link.h exists failed with the following output:
+Change Dir: /Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_609a6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_609a6.dir/build.make CMakeFiles/cmTC_609a6.dir/build
+Building C object CMakeFiles/cmTC_609a6.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTC_609a6.dir/CheckIncludeFile.c.o   -c /Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'link.h' file not found
+#include <link.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_609a6.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_609a6/fast] Error 2
+
+
+Determining if the include file malloc.h exists failed with the following output:
+Change Dir: /Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_52eae/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_52eae.dir/build.make CMakeFiles/cmTC_52eae.dir/build
+Building C object CMakeFiles/cmTC_52eae.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTC_52eae.dir/CheckIncludeFile.c.o   -c /Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_52eae.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_52eae/fast] Error 2
+
+
+Determining if the include file ndir.h exists failed with the following output:
+Change Dir: /Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a9834/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a9834.dir/build.make CMakeFiles/cmTC_a9834.dir/build
+Building C object CMakeFiles/cmTC_a9834.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTC_a9834.dir/CheckIncludeFile.c.o   -c /Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'ndir.h' file not found
+#include <ndir.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_a9834.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_a9834/fast] Error 2
+
+
+Determining if the include file sys/ndir.h exists failed with the following output:
+Change Dir: /Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_33b58/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_33b58.dir/build.make CMakeFiles/cmTC_33b58.dir/build
+Building C object CMakeFiles/cmTC_33b58.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTC_33b58.dir/CheckIncludeFile.c.o   -c /Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'sys/ndir.h' file not found
+#include <sys/ndir.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_33b58.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_33b58/fast] Error 2
+
+
+Determining if the include file valgrind/valgrind.h exists failed with the following output:
+Change Dir: /Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_12c57/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_12c57.dir/build.make CMakeFiles/cmTC_12c57.dir/build
+Building C object CMakeFiles/cmTC_12c57.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTC_12c57.dir/CheckIncludeFile.c.o   -c /Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'valgrind/valgrind.h' file not found
+#include <valgrind/valgrind.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_12c57.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_12c57/fast] Error 2
+
+
+Determining if the function clock_gettime exists in the rt failed with the following output:
+Change Dir: /Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_62bdc/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_62bdc.dir/build.make CMakeFiles/cmTC_62bdc.dir/build
+Building C object CMakeFiles/cmTC_62bdc.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTC_62bdc.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_62bdc
+/usr/local/Cellar/cmake/3.3.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62bdc.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_62bdc.dir/CheckFunctionExists.c.o  -o cmTC_62bdc  -lrt -lm 
+ld: library not found for -lrt
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_62bdc] Error 1
+make: *** [cmTC_62bdc/fast] Error 2
+
+
+Determining if the function setupterm exists in the tinfo failed with the following output:
+Change Dir: /Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_28ec2/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_28ec2.dir/build.make CMakeFiles/cmTC_28ec2.dir/build
+Building C object CMakeFiles/cmTC_28ec2.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setupterm -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTC_28ec2.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_28ec2
+/usr/local/Cellar/cmake/3.3.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28ec2.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setupterm -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_28ec2.dir/CheckFunctionExists.c.o  -o cmTC_28ec2  -ltinfo -lm 
+ld: library not found for -ltinfo
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_28ec2] Error 1
+make: *** [cmTC_28ec2/fast] Error 2
+
+
+Determining if the function setupterm exists in the terminfo failed with the following output:
+Change Dir: /Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7f08c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7f08c.dir/build.make CMakeFiles/cmTC_7f08c.dir/build
+Building C object CMakeFiles/cmTC_7f08c.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setupterm -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTC_7f08c.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7f08c
+/usr/local/Cellar/cmake/3.3.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f08c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setupterm -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7f08c.dir/CheckFunctionExists.c.o  -o cmTC_7f08c  -lterminfo -lm 
+ld: library not found for -lterminfo
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_7f08c] Error 1
+make: *** [cmTC_7f08c/fast] Error 2
+
+
+Determining if the futimens exist failed with the following output:
+Change Dir: /Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1e694/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1e694.dir/build.make CMakeFiles/cmTC_1e694.dir/build
+Building C object CMakeFiles/cmTC_1e694.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTC_1e694.dir/CheckSymbolExists.c.o   -c /Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'futimens'
+  return ((int*)(&futimens))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_1e694.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_1e694/fast] Error 2
+
+File /Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimens
+  return ((int*)(&futimens))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mallctl exist failed with the following output:
+Change Dir: /Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0c1e6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0c1e6.dir/build.make CMakeFiles/cmTC_0c1e6.dir/build
+Building C object CMakeFiles/cmTC_0c1e6.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTC_0c1e6.dir/CheckSymbolExists.c.o   -c /Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: 'malloc_np.h' file not found
+#include <malloc_np.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_0c1e6.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_0c1e6/fast] Error 2
+
+File /Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc_np.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallctl
+  return ((int*)(&mallctl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mallinfo exist failed with the following output:
+Change Dir: /Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cdd07/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cdd07.dir/build.make CMakeFiles/cmTC_cdd07.dir/build
+Building C object CMakeFiles/cmTC_cdd07.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTC_cdd07.dir/CheckSymbolExists.c.o   -c /Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_cdd07.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_cdd07/fast] Error 2
+
+File /Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallinfo
+  return ((int*)(&mallinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strerror_s exist failed with the following output:
+Change Dir: /Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_363a3/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_363a3.dir/build.make CMakeFiles/cmTC_363a3.dir/build
+Building C object CMakeFiles/cmTC_363a3.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTC_363a3.dir/CheckSymbolExists.c.o   -c /Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'strerror_s'; did you mean 'strerror_r'?
+  return ((int*)(&strerror_s))[argc];
+                  ^~~~~~~~~~
+                  strerror_r
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/include/string.h:116:6: note: 'strerror_r' declared here
+int      strerror_r(int, char *, size_t);
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_363a3.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_363a3/fast] Error 2
+
+File /Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_s
+  return ((int*)(&strerror_s))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the __GLIBC__ exist failed with the following output:
+Change Dir: /Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_06d76/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_06d76.dir/build.make CMakeFiles/cmTC_06d76.dir/build
+Building C object CMakeFiles/cmTC_06d76.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTC_06d76.dir/CheckSymbolExists.c.o   -c /Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier '__GLIBC__'
+  return ((int*)(&__GLIBC__))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_06d76.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_06d76/fast] Error 2
+
+File /Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/build_tag-e1.34.1_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GLIBC__
+  return ((int*)(&__GLIBC__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

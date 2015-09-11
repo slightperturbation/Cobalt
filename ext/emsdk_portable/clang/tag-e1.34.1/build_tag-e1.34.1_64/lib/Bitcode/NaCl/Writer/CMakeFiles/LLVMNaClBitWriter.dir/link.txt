@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar cq ../../../libLLVMNaClBitWriter.a  CMakeFiles/LLVMNaClBitWriter.dir/NaClBitcodeWriter.cpp.o CMakeFiles/LLVMNaClBitWriter.dir/NaClBitcodeWriterPass.cpp.o CMakeFiles/LLVMNaClBitWriter.dir/NaClValueEnumerator.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib ../../../libLLVMNaClBitWriter.a

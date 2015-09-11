@@ -43,13 +43,25 @@ endmacro()
 
 macro( cobalt_include_glfw )
   if( COBALT_EMSCRIPTEN )
-    # just need to link with -lglfw
+    # just need to ask for the libraries
+    # consider changing the level of opengl support too, e.g., -s FULL_ES3=1 
+    # options (for the -s flag) are documented in:
+    #   https://github.com/kripken/emscripten/blob/master/src/settings.js
+    #set( COBALT_GLFW_LIBRARIES "-s USE_GLFW=3 -s USE_WEBGL2=1" )
+    set( COBALT_GLFW_LIBRARIES "-s USE_GLFW=3 -s LEGACY_GL_EMULATION=1" )
   else()
     # TODO -- what about windows?  should GLFW be included in ext?
+
     find_package( PkgConfig REQUIRED )
     pkg_search_module( GLFW REQUIRED glfw3 )
+
     include_directories( ${GLFW_INCLUDE_DIRS} )
-    set( COBALT_GLFW_LIBRARIES ${GLFW_LIBRARIES} )
+
+    # Need to find the full path of the library to link, so search the suggested directories
+    find_library( COBALT_GLFW_LIBRARIES NAMES ${GLFW_LIBRARIES}
+             HINTS ${GLFW_LIBRARY_DIRS} ${GLFW_LIBRARY_DIR} )
+
+    message( "\n\n\nAdding GLFW_LIBRARIES:  ${COBALT_GLFW_LIBRARIES}\n\n\n")
 
     # Ask for OpenGL 3 headers
     add_definitions( -DGLFW_INCLUDE_GLCOREARB )
@@ -82,7 +94,7 @@ macro( cobalt_link_external_libraries EXECUTABLE_NAME )
     set( COBALT_COMPILE_FLAGS "" )
     set( COBALT_LINK_FLAGS "" )
     if( COBALT_EMSCRIPTEN )
-        set( COBALT_COMPILE_FLAGS "${COBALT_COMPILE_FLAGS}" -lglfw )
+        # set( COBALT_COMPILE_FLAGS "${COBALT_COMPILE_FLAGS}" -lglfw3 )
     endif()
     set_target_properties( ${EXECUTABLE_NAME}
         PROPERTIES

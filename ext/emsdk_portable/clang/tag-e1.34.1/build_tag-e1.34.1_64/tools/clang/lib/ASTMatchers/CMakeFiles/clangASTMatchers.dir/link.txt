@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar cq ../../../../lib/libclangASTMatchers.a  CMakeFiles/clangASTMatchers.dir/ASTMatchFinder.cpp.o CMakeFiles/clangASTMatchers.dir/ASTMatchersInternal.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib ../../../../lib/libclangASTMatchers.a

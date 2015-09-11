@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/vector/tmp/Cobalt/ext/emsdk_portable/clang/tag-e1.34.1/src/utils/count/count.c
+stdlib.h
+-
+stdio.h
+-
+

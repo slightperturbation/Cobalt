@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar cq ../../../libLLVMJSBackendDesc.a  CMakeFiles/LLVMJSBackendDesc.dir/JSBackendMCTargetDesc.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib ../../../libLLVMJSBackendDesc.a

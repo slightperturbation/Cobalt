@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar cq ../../../libLLVMNaClBitTestUtils.a  CMakeFiles/LLVMNaClBitTestUtils.dir/NaClBitcodeMunge.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib ../../../libLLVMNaClBitTestUtils.a

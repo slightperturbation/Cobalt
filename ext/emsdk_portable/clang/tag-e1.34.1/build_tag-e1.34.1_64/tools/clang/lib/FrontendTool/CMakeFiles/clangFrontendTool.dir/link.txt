@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar cq ../../../../lib/libclangFrontendTool.a  CMakeFiles/clangFrontendTool.dir/ExecuteCompilerInvocation.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib ../../../../lib/libclangFrontendTool.a

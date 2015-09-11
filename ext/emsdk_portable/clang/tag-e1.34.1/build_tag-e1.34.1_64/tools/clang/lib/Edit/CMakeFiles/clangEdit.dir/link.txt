@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar cq ../../../../lib/libclangEdit.a  CMakeFiles/clangEdit.dir/Commit.cpp.o CMakeFiles/clangEdit.dir/EditedSource.cpp.o CMakeFiles/clangEdit.dir/RewriteObjCFoundationAPI.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib ../../../../lib/libclangEdit.a

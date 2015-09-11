@@ -10,11 +10,11 @@ To get started with Emscripten development, grab one of the packages below:
 
 Windows:
 * Emscripten SDK Web Installer is a NSIS installer that always gets you the latest Emscripten SDK from the web:
-  * [emsdk-1.27.0-web-64bit.exe](https://s3.amazonaws.com/mozilla-games/emscripten/releases/emsdk-1.27.0-web-64bit.exe)
+  * [emsdk-1.34.1-web-64bit.exe](https://s3.amazonaws.com/mozilla-games/emscripten/releases/emsdk-1.34.1-web-64bit.exe)
 * Emscripten SDK Offline Installer is a NSIS installer that bundles together the Emscripten toolchain as an offline-installable package:
-  * [emsdk-1.27.0-full-64bit.exe](https://s3.amazonaws.com/mozilla-games/emscripten/releases/emsdk-1.27.0-full-64bit.exe)
+  * [emsdk-1.34.1-full-64bit.exe](https://s3.amazonaws.com/mozilla-games/emscripten/releases/emsdk-1.34.1-full-64bit.exe)
 * Portable Emscripten SDK is a zipped package of the Emscripten SDK that does not require system installation privileges. Just unzip and go:
-  * [emsdk-1.27.0-portable-64bit.zip](https://s3.amazonaws.com/mozilla-games/emscripten/releases/emsdk-1.27.0-portable-64bit.zip)
+  * [emsdk-1.34.1-portable-64bit.zip](https://s3.amazonaws.com/mozilla-games/emscripten/releases/emsdk-1.34.1-portable-64bit.zip)
 
 Linux and Mac OS X:
 * [emsdk-portable.tar.gz](https://s3.amazonaws.com/mozilla-games/emscripten/releases/emsdk-portable.tar.gz): Emscripten SDK is available as a portable web-installer for Linux and OS X.
@@ -133,6 +133,10 @@ On Windows, you can directly install an old SDK version by using one of the arch
 
 You can toggle between different tools and SDK versions by running `emsdk activate <tool/sdk name>`. Activating a tool will set up `~/.emscripten` to point to that particular tool. On Windows, you can pass the option `--global` to the `activate` command to register the environment permanently to the system registry for all users.
 
+##### How do I build multiple projects with different SDK versions in parallel?
+
+By default, Emscripten locates all configuration files in the home directory of the user. This may be a problem if you need to simultaneously build with multiple Emscripten compiler versions, since the user home directory can only be configured to point to one compiler at a time. This can be overcome by specifying the '--embedded' option as a parameter to 'emsdk activate', which will signal emsdk to generate the compiler configuration files inside the emsdk root directory instead of the user home directory. Use this option also when it is desirable to run emsdk in a fully portable mode that does not touch any files outside the emsdk directory.
+
 ##### How do I track the latest Emscripten development with the SDK?
 
 A common and supported use case of the Emscripten SDK is to enable the workflow where you directly interact with the github repositories. This allows you to obtain new features and latest fixes immediately as they are pushed to the github repository, without having to wait for release to be tagged. You do not need a github account or a fork of Emscripten to do this. To switch to using the latest upstream git development branch `incoming`, run the following:
@@ -204,3 +208,7 @@ On Windows, you can install one of the **old versions** via an offline NSIS inst
  - [emsdk-1.21.0-full-64bit.exe](https://s3.amazonaws.com/mozilla-games/emscripten/releases/emsdk-1.21.0-full-64bit.exe)
  - [emsdk-1.22.0-full-64bit.exe](https://s3.amazonaws.com/mozilla-games/emscripten/releases/emsdk-1.22.0-full-64bit.exe)
  - [emsdk-1.25.0-full-64bit.exe](https://s3.amazonaws.com/mozilla-games/emscripten/releases/emsdk-1.25.0-full-64bit.exe)
+ - [emsdk-1.27.0-full-64bit.exe](https://s3.amazonaws.com/mozilla-games/emscripten/releases/emsdk-1.27.0-full-64bit.exe) (last release based on Clang 3.3)
+ - [emsdk-1.29.0-full-64bit.exe](https://s3.amazonaws.com/mozilla-games/emscripten/releases/emsdk-1.29.0-full-64bit.exe) (the only release based on Clang 3.4)
+ - [emsdk-1.30.0-full-64bit.exe](https://s3.amazonaws.com/mozilla-games/emscripten/releases/emsdk-1.30.0-full-64bit.exe) (the only release based on Clang 3.5)
+ - [emsdk-1.34.1-full-64bit.exe](https://s3.amazonaws.com/mozilla-games/emscripten/releases/emsdk-1.30.0-full-64bit.exe) (first release based on Clang 3.7)

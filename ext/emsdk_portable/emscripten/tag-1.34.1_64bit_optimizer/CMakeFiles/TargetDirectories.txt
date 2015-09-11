@@ -1,0 +1,1 @@
+/Users/vector/tmp/Cobalt/ext/emsdk_portable/emscripten/tag-1.34.1_64bit_optimizer/CMakeFiles/optimizer.dir
